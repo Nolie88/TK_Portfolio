@@ -11,6 +11,9 @@
   background-size: cover;
   background-position: center;
 }
+
+/* Nav style start here */
+
 nav {
   display: flex;
   align-items: center;
@@ -45,4 +48,19 @@ nav ul li a {
 nav ul li a:hover {
   color: #a366ff;
   transition: 0.4s;
+}
+
+.btn {
+  background-color: #a366ff;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 30px;
+  transition: transform 0.4s;
+}
+
+.btn:hover {
+  transform: scale(1.2);
 }
