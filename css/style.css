@@ -88,7 +88,7 @@ h4 {
 }
 
 .newsletter form {
-  width: 380px;
+  width: 100%;
   max-width: 100%;
   position: relative;
 }
@@ -355,26 +355,66 @@ footer p:nth-child(2) {
   font-size: 14px;
 }
 
-/* Sticky nav */
+@media (min-device-width: 600px) {
+  img[data-src-600px] {
+    content: attr(data-src-600px, url);
+  }
+}
 
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
-.sticky {
-  position: fixed;
+@media (min-device-width: 800px) {
+  img[data-src-800px] {
+    content: attr(data-src-800px, url);
+  }
+}
+@media (min-width: 640px) {
+  body {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 960px) {
+  body {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 1100px) {
+  body {
+    font-size: 1.5rem;
+  }
+}
+
+/* burger */
+/* Style the navigation menu */
+.hero {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.hero #navbar {
+  display: none;
+}
+
+/* Style navigation menu links */
+.hero a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.heri a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
   top: 0;
-  width: 100%;
 }
 
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-.sticky + .content {
-  padding-top: 60px;
+/* Add a grey background color on mouse-over */
+.hero a:hover {
+  background-color: #ddd;
+  color: black;
 }
-
-@media only screen and (max-width: 508px) {
-  body {
-    background-color: var(--bg-salm);
-  }
-
-  @media only screen and (max-width: 420px) {
-  body {
-    background-color: var(--bg-salm);
-  }
