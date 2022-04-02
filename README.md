@@ -22,5 +22,5 @@ The user required the below:
 ## Web App Preview
 The following image shows the web application's appearance and functionality:
 
-![The Person Portolio includes several images with a main 'hero' image and links which navigate to previios work](/img/sample.gif)
+![The Person Portolio includes several images with a main 'hero' image and links which navigate to previios work](./img/sample.png)
 ```
