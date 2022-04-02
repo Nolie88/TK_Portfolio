@@ -17,10 +17,8 @@ The user required the below:
 3. Links which point to the correct sections.
 4. Links of previous work which show a live app.
 
-```
-
 ## Web App Preview
+
 The following image shows the web application's appearance and functionality:
 
 ![The Person Portolio includes several images with a main 'hero' image and links which navigate to previios work](./img/sample.png)
-```
